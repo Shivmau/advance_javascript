@@ -1,7 +1,7 @@
 // Problem 5: Write a function to replace spaces in a given string with - .
 
 
-// str="The quick brown fox jumps over the lazy dog"
+
 function newChar(str){
     bag=""
     for(let i=0; i<str.length; i++){
@@ -13,6 +13,6 @@ function newChar(str){
     }return bag
 
 }
-let a=newChar("shivam maurya studies in prepeleaf by masai")
+let a=newChar("The quick brown fox jumps over the lazy dog")
 
 console.log(a)
