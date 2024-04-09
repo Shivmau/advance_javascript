@@ -1,7 +1,7 @@
 // Problem 5: Write a function to replace spaces in a given string with - .
 
 
-// str="S hi va m ma ur ya"
+// str="The quick brown fox jumps over the lazy dog"
 function newChar(str){
     bag=""
     for(let i=0; i<str.length; i++){
